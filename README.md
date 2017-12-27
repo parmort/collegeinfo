@@ -20,4 +20,4 @@ set up
 This is a free-to-use software bundle distributed under the MIT License. Users
 have full rights to use this without permission.
 
-Copr. ⓒ 2017 S. Numerius. No Rights Reserved.
+Copr. &copy; 2017 S. Numerius. No Rights Reserved.
