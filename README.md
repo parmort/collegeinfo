@@ -15,6 +15,13 @@ set up
 
 3. Run the command `npm start` to start up the server
 
+## Using the Development Server
+
+To use the development server (through nodemon), run `npm run devstart`. This will
+auto-start the dev server and continually update it while you make changes. This
+is highly recommended to use when making changes. The regular start script is mainly
+used in deployment services such as Heroku.
+
 ## License
 
 This is a free-to-use software bundle distributed under the MIT License. Users
