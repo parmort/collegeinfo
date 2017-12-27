@@ -1,0 +1,23 @@
+{
+  "name": "expressjs_start",
+  "version": "1.0.0",
+  "description": "A dynamic webpage development starter pack",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parvus-mortalis/expressjs_start.git"
+  },
+  "author": "S. Numerius",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/parvus-mortalis/expressjs_start/issues"
+  },
+  "homepage": "https://github.com/parvus-mortalis/expressjs_start#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "pug": "^2.0.0-rc.4"
+  }
+}
