@@ -15,12 +15,20 @@ set up
 
 3. Run the command `npm start` to start up the server
 
-## Using the Development Server
+## Development
+
+### Using the Development Server
 
 To use the development server (through nodemon), run `npm run devstart`. This will
 auto-start the dev server and continually update it while you make changes. This
 is highly recommended to use when making changes. The regular start script is mainly
 used in deployment services such as Heroku.
+
+### Editing the stylesheets
+
+To efficiently edit the stylesheets, you have to globally install the gulp package.
+You can easily do this through `[sudo] npm i -g gulp`. Then, just run the command
+`gulp`, and when you edit a less file, it will auto-compile.
 
 ## License
 

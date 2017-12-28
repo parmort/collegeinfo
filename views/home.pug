@@ -1,11 +1,7 @@
-doctype html
+extends layout
 
-html
-  head
-    title= title
-    link(rel="stylesheet" href="/css/styles.css")
-  body
-    h1= title
+block content
+  .text-center
     p.
       You have reached the homepage of the ExpressJS starter pack written by
       Saturnus Numerius
@@ -13,3 +9,7 @@ html
       | To change this page, edit
       |
       em views/home.pug
+    p
+      | To change the styles of this page, edit
+      |
+      em less/styles.less
