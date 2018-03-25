@@ -12,4 +12,4 @@ It outlines all of the frameworks and libraries used.
 - [College Board](https://bigfuture.collegeboard.org/college-university-search/bucknell-university)
 - [Bucknell](https//www.bucknell.edu)
 - [US News](https://www.usnews.com/best-colleges/bucknell-university-3238)
-- [Bucknell Icon (favicon)](icons.duckduckgo.com/ip2/www.bucknell.edu.ico)
+- [Bucknell Icon (the favicon)](icons.duckduckgo.com/ip2/www.bucknell.edu.ico)
