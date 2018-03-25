@@ -1,4 +1,5 @@
 const express = require('express');
+const path = require('path');
 
 const app = express();
 
@@ -11,6 +12,7 @@ app.set('view engine', 'pug');
 // Setting up static assets
 app.use("/css", express.static(__dirname + "/css"));
 app.use("/js", express.static(__dirname + "/js"));
+app.use("/img", express.static(__dirname + "/img"));
 
 function title(title){
   if(title == ""){
