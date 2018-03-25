@@ -46,7 +46,7 @@ app.get('/qualities', (req, res) => {
 });
 
 app.get('/athletics', (req, res) => {
-  res.render('athletics', {title: title("Academics"), isHome: false});
+  res.render('athletics', {title: title("Athletics"), isHome: false});
 });
 
 app.get('/post-uni', (req, res) => {

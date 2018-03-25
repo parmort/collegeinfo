@@ -82,3 +82,41 @@ a:hover {
   line-height: 60px;
   background-color: #003865;
 }
+h2 {
+  color: #e87722;
+}
+.orange {
+  color: #ffa300;
+}
+.accordion-hover-dark {
+  background: #0082ba;
+  color: #fff;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  color: white;
+  text-align: center;
+  background: #003865;
+}
+.accordion-hover-dark:hover,
+.accordion-hover-dark .active {
+  background-color: #59cbe8;
+  color: #000;
+}
+.accordion-hover-dark:hover {
+  background-color: #003865;
+  color: white;
+}
+.panel-dark {
+  padding: 0 18px;
+  background-color: #59cbe8;
+  color: #000;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #003865;
+  color: #ffa300;
+}
