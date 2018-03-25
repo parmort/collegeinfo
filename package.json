@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/parvus-mortalis/expressjs_start.git"
+    "url": "git+https://github.com/parmort/collegeinfo.git"
   },
   "author": "S. Numerius",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/parvus-mortalis/expressjs_start/issues"
+    "url": "https://github.com/parmort/collegeinfo/issues"
   },
-  "homepage": "https://github.com/parvus-mortalis/expressjs_start#readme",
+  "homepage": "https://github.com/parmort/collegeinfo#readme",
   "dependencies": {
     "express": "^4.16.2",
     "pug": "^2.0.0-rc.4"

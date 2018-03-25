@@ -2,9 +2,6 @@ const express = require('express');
 
 const app = express();
 
-/** List
- */
-
 /* Middleware */
 
 // Setting up template engine
