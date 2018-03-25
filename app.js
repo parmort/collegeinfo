@@ -30,27 +30,27 @@ function title(title){
 
 // GET request to '/' route
 app.get('/', (req, res) => {
-  res.render('home', {title: title("")});
+  res.render('home', {title: title(""), isHome: true});
 });
 
 app.get('/academics', (req, res) => {
-  res.render('academics', {title: title("Academics")});
+  res.render('academics', {title: title("Academics"), isHome: false});
 });
 
 app.get('/activities', (req, res) => {
-  res.render('activities', {title: title("Activities")});
+  res.render('activities', {title: title("Activities"), isHome: false});
 });
 
 app.get('/qualities', (req, res) => {
-  res.render('qualities', {title: title("Qualities")});
+  res.render('qualities', {title: title("Qualities"), isHome: false});
 });
 
 app.get('/athletics', (req, res) => {
-  res.render('athletics', {title: title("Academics")});
+  res.render('athletics', {title: title("Academics"), isHome: false});
 });
 
 app.get('/post-uni', (req, res) => {
-  res.render('post-uni', {title: title("Post University")});
+  res.render('post-uni', {title: title("Post University"), isHome: false});
 });
 
 // Starting server

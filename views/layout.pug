@@ -11,4 +11,8 @@ html
     .container
       h1.text-center= title[1]
       block content
+    unless isHome
+      .footer
+        .container.text-center
+          a(href="/") Back
     script(src="/js/script.js")
