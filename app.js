@@ -56,5 +56,5 @@ app.get('/post-uni', (req, res) => {
 });
 
 // Starting server
-const port = 3000;
+const port = process.env.PORT || 3000;
 app.listen(port, () => console.log("Server Started on port " + port));
