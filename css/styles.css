@@ -1,3 +1,71 @@
+.bar {
+  background: #0082ba;
+  color: #fff;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+}
+.bar:hover,
+.bar .active {
+  background-color: #59cbe8;
+  color: #000;
+}
 body {
-  background-color: #ccc;
+  background: #003865;
+  color: white;
+}
+a,
+a:hover {
+  text-decoration: none;
+  color: #e87722;
+}
+.container h1 {
+  color: #e87722;
+}
+.accordion {
+  background: #0082ba;
+  color: #fff;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+}
+.accordion:hover,
+.accordion .active {
+  background-color: #59cbe8;
+  color: #000;
+}
+.accordion-hover {
+  background: #0082ba;
+  color: #fff;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+}
+.accordion-hover:hover,
+.accordion-hover .active {
+  background-color: #59cbe8;
+  color: #000;
+}
+.panel {
+  padding: 0 18px;
+  background-color: #59cbe8;
+  color: #000;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.content {
+  padding: 4px 18px 10px;
+}
+.active {
+  font-style: italic;
 }

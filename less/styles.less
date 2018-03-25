@@ -1,5 +1,66 @@
-@background: #ccc;
+@blue:       #003865; // Bucknell Blue
+@sec-blue:   #0082ba; // Brighter Blue
+@ter-blue:   #59cbe8; // Brightest Blue
+
+@orange:     #e87722; // Bucknell Orange
+@sec-orange: #ffa300; // Brighter Orange
+
+@white:      #fff;
+@li-grey:    #d9d9d9;
+@med-grey:   #a7a8aa;
+@black:      #000;
+
+.bar {
+  background: @sec-blue;
+  color: @white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  
+  &:hover, .active {
+    background-color: @ter-blue;
+    color: @black;
+  }
+}
 
 body {
-  background-color: @background;
+  background: @blue;
+  color: white;
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: @orange;
+}
+
+.container h1 {
+  color: @orange;
+}
+
+.accordion {
+  .bar;
+}
+
+.accordion-hover {
+  .bar;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: @ter-blue;
+  color: @black;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.content {
+  padding: 4px 18px 10px;
+}
+
+.active {
+  font-style: italic;
 }

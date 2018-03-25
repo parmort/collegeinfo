@@ -12,11 +12,45 @@ app.set('view engine', 'pug');
 app.use("/css", express.static(__dirname + "/css"));
 app.use("/js", express.static(__dirname + "/js"));
 
+function title(title){
+  if(title == ""){
+    return [
+      "Bison Info",
+      "Bison Info"
+    ]
+  }
+
+  return [
+    "Bison Info | " + title,
+    title
+  ]
+}
+
 /* Routes */
 
 // GET request to '/' route
 app.get('/', (req, res) => {
-  res.render('home', {title: "Temp Home"});
+  res.render('home', {title: title("")});
+});
+
+app.get('/academics', (req, res) => {
+  res.render('academics', {title: title("Academics")});
+});
+
+app.get('/activities', (req, res) => {
+  res.render('activities', {title: title("Activities")});
+});
+
+app.get('/qualities', (req, res) => {
+  res.render('qualities', {title: title("Qualities")});
+});
+
+app.get('/athletics', (req, res) => {
+  res.render('athletics', {title: title("Academics")});
+});
+
+app.get('/post-uni', (req, res) => {
+  res.render('post-uni', {title: title("Post University")});
 });
 
 // Starting server

@@ -1,5 +1,32 @@
 extends layout
 
+block styles
+  link(rel="stylesheet" href="/css/index.css")
+
 block content
-  .container
-    h1 Info on Bucknell
+  div
+    button.accordion Academics
+    .panel
+      .content
+        p Test scores, admission rates, etc.
+        a(href="academics") Link
+    button.accordion Activities
+    .panel
+      .content
+        p Extra-curricular Activities
+        a(href="activities") Link
+    button.accordion Qualities
+    .panel
+      .content
+        p Qualities of the student body
+        a(href="qualities") Link
+    button.accordion Athletics
+    .panel
+      .content
+        p Athletics at Bucknell
+        a(href="athletics") Link
+    button.accordion Post University
+    .panel
+      .content
+        p Bucknell Grads
+        a(href="post-uni") Link
